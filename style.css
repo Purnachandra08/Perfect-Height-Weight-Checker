@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #ff4f81;
+}
+
+p {
+  color: #555;
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="number"] {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #ff4f81;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="number"]:focus {
+  border-color: #ff85a2;
+}
+
+.gender-box {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.gender-box label {
+  color: #444;
+}
+
+button {
+  background: #ff4f81;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e03b6b;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.result-good {
+  background: #d4f8d4;
+  color: #28a745;
+}
+
+.result-bad {
+  background: #fddddd;
+  color: #dc3545;
+}
+.result-neutral {
+  background: #f0f0f0;
+  color: #6c757d;
+}
